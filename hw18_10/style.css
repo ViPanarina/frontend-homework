@@ -1,0 +1,38 @@
+* {
+margin: o;
+padding: 0;
+box-sizing: border-box;
+}
+.row {
+margin-bottom: 2rem;
+}
+.wrapper {
+    flex: 1;
+}
+form {
+    text-align: center;
+    
+}
+.titel {
+    font-size: 2.5rem;
+}
+.input {
+    font-size: 1.5rem;
+    padding: .5rem;
+    border-radius: 8px;
+    border: 1px solid grey;
+}
+.button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 1rem  2rem;
+    border-radius: 8px;
+    font-size: 1.5rem;
+}
+body {
+    display: flex;
+}
+.banner {
+    flex: 1;
+}

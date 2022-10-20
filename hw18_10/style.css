@@ -1,5 +1,5 @@
 * {
-margin: o;
+margin: 0;
 padding: 0;
 box-sizing: border-box;
 }
@@ -7,11 +7,11 @@ box-sizing: border-box;
 margin-bottom: 2rem;
 }
 .wrapper {
-    flex: 1;
+    display: flex;
 }
 form {
     text-align: center;
-    
+    flex: 1; 
 }
 .titel {
     font-size: 2.5rem;
@@ -29,9 +29,6 @@ form {
     padding: 1rem  2rem;
     border-radius: 8px;
     font-size: 1.5rem;
-}
-body {
-    display: flex;
 }
 .banner {
     flex: 1;
